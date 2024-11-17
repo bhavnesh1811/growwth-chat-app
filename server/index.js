@@ -13,19 +13,19 @@ const app = express();
 // Middleware
 app.use(express.json());
 const corsOptions = {
-  origin: process.env.FRONTEND_URL || 'http://localhost:3000',
-  methods: ['GET', 'POST', 'PUT', 'DELETE', 'OPTIONS'],
-  allowedHeaders: [
-    'Content-Type',
-    'user-id',
-    'Authorization'
-  ],
+  origin: process.env.FRONTEND_URL || "http://localhost:3000",
+  methods: ["GET", "POST", "PUT", "DELETE", "OPTIONS"],
+  allowedHeaders: ["Content-Type", "user-id", "Authorization"],
   credentials: true,
-  optionsSuccessStatus: 200
+  optionsSuccessStatus: 200,
 };
 
 // Apply CORS middleware
 app.use(cors(corsOptions));
+
+app.get((req, res) => {
+  res.status(200).send({ message: "Api is working fine" });
+});
 
 // Routes
 app.use("/api/auth", UserRouter);
