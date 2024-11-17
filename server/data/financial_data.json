@@ -1,0 +1,12 @@
+{
+  "revenue": {
+    "march": 50000,
+    "april": 60000,
+    "forecast": 55000
+  },
+  "expenses": {
+    "march": 20000,
+    "april": 25000,
+    "forecast": 23000
+  }
+}
