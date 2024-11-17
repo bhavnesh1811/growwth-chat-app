@@ -12,15 +12,15 @@ import {
   //   useDisclosure,
   useColorModeValue,
   Stack,
-  useColorMode,
+//   useColorMode,
   Center,
   Image,
 } from "@chakra-ui/react";
-import { MoonIcon, SunIcon } from "@chakra-ui/icons";
+// import { MoonIcon, SunIcon } from "@chakra-ui/icons";
 import { useNavigate } from "react-router-dom";
 
 export default function Navbar() {
-  const { colorMode, toggleColorMode } = useColorMode();
+//   const { colorMode, toggleColorMode } = useColorMode();
   const nav = useNavigate();
   //   const { isOpen, onOpen, onClose } = useDisclosure()
 
