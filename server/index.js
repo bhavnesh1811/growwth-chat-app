@@ -23,8 +23,8 @@ const corsOptions = {
 // Apply CORS middleware
 app.use(cors(corsOptions));
 
-app.get((req, res) => {
-  res.status(200).send({ message: "Api is working fine" });
+app.get('/', (req, res) => {
+  res.status(200).send({ message: "API is working fine" });
 });
 
 // Routes
