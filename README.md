@@ -275,20 +275,8 @@ Please use the GitHub Issues tab to report any bugs. Include:
 - Actual behavior
 - Screenshots (if applicable)
 
-## ✨ Future Enhancements
-- [ ] WebSocket integration
-- [ ] Enhanced AI capabilities
-- [ ] Rate limiting
-- [ ] API documentation with Swagger
-- [ ] Advanced monitoring
-- [ ] Caching layer
-
-## 📄 License
-This project is licensed under the MIT License - see the LICENSE file for details.
-
 ## 👥 Authors
-- Your Name
-- Contributors
+- Bhavnesh Arora
 
 ## 🙏 Acknowledgments
 - Express.js team
@@ -303,4 +291,4 @@ For support, please:
 4. Contact the development team
 
 ---
-Made with ❤️ by [Your Name/Team]
+Made with ❤️ by Bhavnesh Arora
